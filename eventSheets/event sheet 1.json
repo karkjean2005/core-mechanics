@@ -22,11 +22,11 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "Player",
-					"sid": 820957359735169,
+					"sid": 609820236627013,
 					"parameters": {
 						"object": "Bullet",
 						"layer": "0",
-						"image-point": "0"
+						"image-point": "1"
 					}
 				}
 			],
@@ -36,26 +36,27 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 311271381204860,
-					"parameters": {
-						"key": 37
-					}
+					"id": "on-created",
+					"objectClass": "Bullet",
+					"sid": 744558979926735
+				},
+				{
+					"id": "is-mirrored",
+					"objectClass": "Player",
+					"sid": 482535387495469
 				}
 			],
 			"actions": [
 				{
-					"id": "set-animation",
-					"objectClass": "Player",
-					"sid": 775012222517407,
+					"id": "set-angle",
+					"objectClass": "Bullet",
+					"sid": 511611027576725,
 					"parameters": {
-						"animation": "\"Left\"",
-						"from": "beginning"
+						"angle": "180"
 					}
 				}
 			],
-			"sid": 843604252024675
+			"sid": 118251306177998
 		},
 		{
 			"eventType": "block",
@@ -63,7 +64,31 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
-					"sid": 467135413219914,
+					"sid": 224988819569840,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 750230112920957,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 283339820330170
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 866244284553713,
 					"parameters": {
 						"key": 39
 					}
@@ -71,16 +96,15 @@
 			],
 			"actions": [
 				{
-					"id": "set-animation",
+					"id": "set-mirrored",
 					"objectClass": "Player",
-					"sid": 856352099924477,
+					"sid": 107573770956161,
 					"parameters": {
-						"animation": "\"Right\"",
-						"from": "beginning"
+						"state": "not-mirrored"
 					}
 				}
 			],
-			"sid": 421264510437018
+			"sid": 961241639309035
 		}
 	],
 	"sid": 919652938950309

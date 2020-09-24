@@ -9,7 +9,7 @@
 					"type": "Player",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Left",
+						"initial-animation": "Right",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
