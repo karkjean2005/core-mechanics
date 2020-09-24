@@ -1,0 +1,87 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 896294026015291,
+					"parameters": {
+						"key": 38
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 718390603873517
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Player",
+					"sid": 820957359735169,
+					"parameters": {
+						"object": "Bullet",
+						"layer": "0",
+						"image-point": "0"
+					}
+				}
+			],
+			"sid": 844267481557972
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 311271381204860,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 775012222517407,
+					"parameters": {
+						"animation": "\"Left\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 843604252024675
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 467135413219914,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 856352099924477,
+					"parameters": {
+						"animation": "\"Right\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 421264510437018
+		}
+	],
+	"sid": 919652938950309
+}
