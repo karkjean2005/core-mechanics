@@ -510,6 +510,33 @@
 				}
 			],
 			"sid": 591819548632592
+		},
+		{
+			"eventType": "comment",
+			"text": "this makes the bullet destroy after certain distance"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-distance-travelled",
+					"objectClass": "Bullet",
+					"sid": 640820925011443,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"comparison": 5,
+						"distance": "450"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 360474188984330
+				}
+			],
+			"sid": 916687943359855
 		}
 	],
 	"sid": 919652938950309
