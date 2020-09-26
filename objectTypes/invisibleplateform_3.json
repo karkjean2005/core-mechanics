@@ -1,14 +1,14 @@
 {
-	"name": "Bullet",
+	"name": "InvisiblePlateform_3",
 	"plugin-id": "Sprite",
-	"sid": 270469022118802,
+	"sid": 966769667590340,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Bullet",
-			"name": "Bullet",
-			"sid": 543081420879922
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 337468957970987
 		}
 	],
 	"effectTypes": [],
@@ -17,19 +17,19 @@
 			{
 				"frames": [
 					{
-						"width": 150,
-						"height": 150,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 883286,
+						"imageSpriteId": 8018472,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 810079391621536,
+				"sid": 649903217934648,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

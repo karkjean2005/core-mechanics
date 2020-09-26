@@ -40,6 +40,14 @@
 		},
 		{
 			"type": "behavior",
+			"id": "bound",
+			"name": "Bound to layout",
+			"author": "Scirra",
+			"version": "r210.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
@@ -62,7 +70,18 @@
 			"Ground",
 			"Keyboard",
 			"Bullet",
-			"Switch"
+			"Switch",
+			"Button_1",
+			"InvisiblePlateform_1",
+			"DeathTile",
+			"VisiblePlateform_1",
+			"Button_2",
+			"Enemy",
+			"Wall",
+			"Trigger",
+			"Enemy2",
+			"InvisiblePlateform_2",
+			"InvisiblePlateform_3"
 		],
 		"subfolders": []
 	},

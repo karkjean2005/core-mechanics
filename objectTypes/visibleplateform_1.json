@@ -1,14 +1,14 @@
 {
-	"name": "Bullet",
+	"name": "VisiblePlateform_1",
 	"plugin-id": "Sprite",
-	"sid": 270469022118802,
+	"sid": 465640788171396,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Bullet",
-			"name": "Bullet",
-			"sid": 543081420879922
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 176069639844483
 		}
 	],
 	"effectTypes": [],
@@ -17,19 +17,19 @@
 			{
 				"frames": [
 					{
-						"width": 150,
-						"height": 150,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 883286,
+						"imageSpriteId": 6367055,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 810079391621536,
+				"sid": 958931110034439,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

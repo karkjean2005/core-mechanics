@@ -1,35 +1,29 @@
 {
-	"name": "Bullet",
+	"name": "Trigger",
 	"plugin-id": "Sprite",
-	"sid": 270469022118802,
+	"sid": 170133064483530,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Bullet",
-			"name": "Bullet",
-			"sid": 543081420879922
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 150,
-						"height": 150,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 883286,
+						"imageSpriteId": 9791774,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 810079391621536,
+				"sid": 584402751836990,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -59,6 +59,10 @@
 			"sid": 118251306177998
 		},
 		{
+			"eventType": "comment",
+			"text": "Animation left."
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -83,6 +87,10 @@
 			"sid": 283339820330170
 		},
 		{
+			"eventType": "comment",
+			"text": "Animation right."
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -105,6 +113,274 @@
 				}
 			],
 			"sid": 961241639309035
+		},
+		{
+			"eventType": "comment",
+			"text": "When player falls off platform and hits Death Tile, they respawn."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 858151785730170,
+					"parameters": {
+						"object": "DeathTile"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 216477223537500
+				}
+			],
+			"sid": 208917015392862
+		},
+		{
+			"eventType": "comment",
+			"text": "First button"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 346931569896356,
+					"parameters": {
+						"object": "Button_1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_1",
+					"sid": 876217490044538,
+					"parameters": {
+						"animation": "\"GreenButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "InvisiblePlateform_1",
+					"sid": 443497230923119,
+					"parameters": {
+						"x": "727",
+						"y": " 898"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "InvisiblePlateform_1",
+					"sid": 226149215613647,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "InvisiblePlateform_1",
+					"sid": 769733792696940,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 391435389120506
+		},
+		{
+			"eventType": "comment",
+			"text": "When player goes through Trigger, invisible wall is destroyed."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 244014036718260,
+					"parameters": {
+						"object": "Trigger"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Wall",
+					"sid": 538277211758194
+				}
+			],
+			"sid": 559239563620095
+		},
+		{
+			"eventType": "comment",
+			"text": "Bullet is destroyed on contact with invisible wall."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 613071163905005,
+					"parameters": {
+						"object": "Wall"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 473695597644784
+				}
+			],
+			"sid": 914917985520045
+		},
+		{
+			"eventType": "comment",
+			"text": "When bullet hits button_2, Invisible Platforms 2 and 3 are visible."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 489455165622281,
+					"parameters": {
+						"object": "Button_2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_2",
+					"sid": 667369747733411,
+					"parameters": {
+						"animation": "\"GreenButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Enemy",
+					"sid": 862168021951006
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Enemy2",
+					"sid": 189207150852539
+				},
+				{
+					"id": "set-position",
+					"objectClass": "InvisiblePlateform_2",
+					"sid": 778738842408627,
+					"parameters": {
+						"x": "1343",
+						"y": " 842"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "InvisiblePlateform_2",
+					"sid": 253390021952434,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "InvisiblePlateform_2",
+					"sid": 284021843821564,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "InvisiblePlateform_3",
+					"sid": 563159190773309,
+					"parameters": {
+						"x": "1485",
+						"y": "753"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "InvisiblePlateform_3",
+					"sid": 514548556936135,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "InvisiblePlateform_3",
+					"sid": 847480125948478,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 992772818206749
+		},
+		{
+			"eventType": "comment",
+			"text": "When bullet hits enemy, restart layout."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 134721536565287,
+					"parameters": {
+						"object": "Enemy"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 413448379968195
+				}
+			],
+			"sid": 841353155837656
+		},
+		{
+			"eventType": "comment",
+			"text": "When bullet hits enemy2, restart layout."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 595819428887282,
+					"parameters": {
+						"object": "Enemy2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 973731508876517
+				}
+			],
+			"sid": 910879202606525
 		}
 	],
 	"sid": 919652938950309
