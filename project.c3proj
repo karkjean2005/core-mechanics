@@ -61,6 +61,14 @@
 			"author": "Scirra",
 			"version": "r210.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r210.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "j1zuk591y5a",
@@ -81,7 +89,14 @@
 			"Trigger",
 			"Enemy2",
 			"InvisiblePlateform_2",
-			"InvisiblePlateform_3"
+			"InvisiblePlateform_3",
+			"Button_3",
+			"MovingPlatform",
+			"MovingPlatform2",
+			"Trigger2",
+			"Wall2",
+			"InvisiblePlateform_4",
+			"InvisiblePlateform_5"
 		],
 		"subfolders": []
 	},
@@ -245,7 +260,7 @@
 		"enhancedAccelerationPrecision": true,
 		"cordovaiOSScheme": "app"
 	},
-	"viewportWidth": 854,
-	"viewportHeight": 480,
+	"viewportWidth": 900,
+	"viewportHeight": 500,
 	"firstLayout": null
 }

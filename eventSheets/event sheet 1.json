@@ -168,10 +168,10 @@
 				{
 					"id": "set-position",
 					"objectClass": "InvisiblePlateform_1",
-					"sid": 443497230923119,
+					"sid": 799788827399872,
 					"parameters": {
-						"x": "727",
-						"y": " 898"
+						"x": "725",
+						"y": "928"
 					}
 				},
 				{
@@ -381,6 +381,135 @@
 				}
 			],
 			"sid": 910879202606525
+		},
+		{
+			"eventType": "comment",
+			"text": "When player goes through Trigger2, invisible wall2 is destroyed."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 723863892810452,
+					"parameters": {
+						"object": "Trigger2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Wall2",
+					"sid": 456967632670356
+				}
+			],
+			"sid": 438341340461188
+		},
+		{
+			"eventType": "comment",
+			"text": "Bullet is destroyed on contact with invisible wall."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 699283537515536,
+					"parameters": {
+						"object": "Wall2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 896809479864894
+				}
+			],
+			"sid": 730834714742686
+		},
+		{
+			"eventType": "comment",
+			"text": "When bullet hits button_3, Invisible Platforms 4 and 5 are visible."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 205379560890886,
+					"parameters": {
+						"object": "Button_3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_3",
+					"sid": 738208418551347,
+					"parameters": {
+						"animation": "\"GreenButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "InvisiblePlateform_4",
+					"sid": 332919658661675,
+					"parameters": {
+						"x": "288",
+						"y": "385"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "InvisiblePlateform_4",
+					"sid": 120997553188950,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "InvisiblePlateform_4",
+					"sid": 883337594790179,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "InvisiblePlateform_5",
+					"sid": 538875215357975,
+					"parameters": {
+						"x": "94",
+						"y": "273"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "InvisiblePlateform_5",
+					"sid": 842116590696143,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "InvisiblePlateform_5",
+					"sid": 187577260759097,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 591819548632592
 		}
 	],
 	"sid": 919652938950309
