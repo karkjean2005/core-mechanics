@@ -1,0 +1,57 @@
+{
+	"name": "Enemy4",
+	"plugin-id": "Sprite",
+	"sid": 743418486913397,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 703,
+						"height": 446,
+						"originX": 0.49786628733997157,
+						"originY": 0.4943946188340807,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3727837,
+						"collisionPoly": {
+							"points": [
+								0.08392603129445235,
+								0.12780269058295965,
+								0.49786628733997157,
+								0.004484304932735426,
+								0.9132290184921764,
+								0.12331838565022421,
+								0.8605974395448079,
+								0.4943946188340807,
+								0.9459459459459459,
+								0.9147982062780269,
+								0.49786628733997157,
+								0.9775784753363229,
+								0.04836415362731152,
+								0.9147982062780269,
+								0.16927453769559034,
+								0.4943946188340807
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 305502595262375,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

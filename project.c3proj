@@ -96,7 +96,17 @@
 			"Trigger2",
 			"Wall2",
 			"InvisiblePlateform_4",
-			"InvisiblePlateform_5"
+			"InvisiblePlateform_5",
+			"MovingPlatform3",
+			"Trigger3",
+			"MovingPlatform4",
+			"Button_4",
+			"Enemy3",
+			"Enemy4",
+			"Button_5",
+			"Enemy5",
+			"Enemy6",
+			"MovingPlatform5"
 		],
 		"subfolders": []
 	},
