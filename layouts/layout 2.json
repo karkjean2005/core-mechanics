@@ -1,0 +1,40 @@
+{
+	"name": "Layout 2",
+	"layers": [
+		{
+			"name": "Layer 0",
+			"overriden": 0,
+			"instances": [],
+			"sid": 513583442441220,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		}
+	],
+	"sid": 874783404043714,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 1800,
+	"height": 1000,
+	"unboundedScrolling": false,
+	"eventSheet": null
+}

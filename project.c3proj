@@ -106,7 +106,8 @@
 			"Button_5",
 			"Enemy5",
 			"Enemy6",
-			"MovingPlatform5"
+			"MovingPlatform5",
+			"Goal"
 		],
 		"subfolders": []
 	},
@@ -118,7 +119,8 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Layout 1",
+			"Layout 2"
 		],
 		"subfolders": []
 	},
@@ -272,5 +274,5 @@
 	},
 	"viewportWidth": 900,
 	"viewportHeight": 500,
-	"firstLayout": null
+	"firstLayout": "Layout 1"
 }

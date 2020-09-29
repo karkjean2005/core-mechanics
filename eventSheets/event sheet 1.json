@@ -2,6 +2,16 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "Goal",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 440324096310929
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -193,6 +203,15 @@
 					"id": "destroy",
 					"objectClass": "Bullet",
 					"sid": 908918075031566
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 708731607543954,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
 				}
 			],
 			"sid": 391435389120506
@@ -247,6 +266,15 @@
 					"id": "destroy",
 					"objectClass": "Bullet",
 					"sid": 596206411173180
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 449123510514741,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
 				}
 			],
 			"sid": 226786635315972
@@ -371,6 +399,15 @@
 					"id": "destroy",
 					"objectClass": "Bullet",
 					"sid": 360570570374279
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 784290608586495,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
 				}
 			],
 			"sid": 992772818206749
@@ -441,6 +478,15 @@
 					"id": "destroy",
 					"objectClass": "Bullet",
 					"sid": 352081177482184
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 587268073976809,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
 				}
 			],
 			"sid": 842316392086993
@@ -569,6 +615,20 @@
 					"parameters": {
 						"animation": "\"GreenButton\"",
 						"from": "beginning"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 919798044802244
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 771492341091845,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
 					}
 				},
 				{
@@ -737,6 +797,20 @@
 					"parameters": {
 						"animation": "\"GreenButton\"",
 						"from": "beginning"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 955502217713832
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 793681110041344,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
 					}
 				},
 				{
@@ -911,6 +985,20 @@
 					}
 				},
 				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 428141681810597
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 569512943708369,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
+				},
+				{
 					"id": "create-object",
 					"objectClass": "System",
 					"sid": 391442665450149,
@@ -1054,6 +1142,78 @@
 				}
 			],
 			"sid": 184008189832396
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 759064964150152,
+					"parameters": {
+						"variable": "Goal",
+						"comparison": 0,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Goal",
+					"sid": 499867917913436,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				}
+			],
+			"sid": 208129086735923
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 901492137832955,
+					"parameters": {
+						"object": "Goal"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 991753793089479,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 559572280990572
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 703058187791222
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 812813579722616,
+					"parameters": {
+						"variable": "Goal",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 468367289187565
 		}
 	],
 	"sid": 919652938950309
