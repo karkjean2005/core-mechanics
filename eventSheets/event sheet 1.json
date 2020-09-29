@@ -166,15 +166,6 @@
 					}
 				},
 				{
-					"id": "set-position",
-					"objectClass": "InvisiblePlateform_1",
-					"sid": 799788827399872,
-					"parameters": {
-						"x": "725",
-						"y": "928"
-					}
-				},
-				{
 					"id": "set-visible",
 					"objectClass": "InvisiblePlateform_1",
 					"sid": 226149215613647,
@@ -280,15 +271,6 @@
 					"sid": 189207150852539
 				},
 				{
-					"id": "set-position",
-					"objectClass": "InvisiblePlateform_2",
-					"sid": 778738842408627,
-					"parameters": {
-						"x": "1343",
-						"y": " 842"
-					}
-				},
-				{
 					"id": "set-visible",
 					"objectClass": "InvisiblePlateform_2",
 					"sid": 253390021952434,
@@ -302,15 +284,6 @@
 					"sid": 284021843821564,
 					"parameters": {
 						"collisions": "enabled"
-					}
-				},
-				{
-					"id": "set-position",
-					"objectClass": "InvisiblePlateform_3",
-					"sid": 563159190773309,
-					"parameters": {
-						"x": "1485",
-						"y": "753"
 					}
 				},
 				{
@@ -459,15 +432,6 @@
 					}
 				},
 				{
-					"id": "set-position",
-					"objectClass": "InvisiblePlateform_4",
-					"sid": 332919658661675,
-					"parameters": {
-						"x": "288",
-						"y": "385"
-					}
-				},
-				{
 					"id": "set-visible",
 					"objectClass": "InvisiblePlateform_4",
 					"sid": 120997553188950,
@@ -481,15 +445,6 @@
 					"sid": 883337594790179,
 					"parameters": {
 						"collisions": "enabled"
-					}
-				},
-				{
-					"id": "set-position",
-					"objectClass": "InvisiblePlateform_5",
-					"sid": 405927383988476,
-					"parameters": {
-						"x": "76",
-						"y": "273"
 					}
 				},
 				{
