@@ -153,6 +153,14 @@
 					"parameters": {
 						"object": "Button_1"
 					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_1",
+					"sid": 338322531276886,
+					"parameters": {
+						"animation": "\"RedButton\""
+					}
 				}
 			],
 			"actions": [
@@ -180,9 +188,68 @@
 					"parameters": {
 						"collisions": "enabled"
 					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 908918075031566
 				}
 			],
 			"sid": 391435389120506
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 236769075954126,
+					"parameters": {
+						"object": "Button_1"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_1",
+					"sid": 294753338360866,
+					"parameters": {
+						"animation": "\"GreenButton\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_1",
+					"sid": 977413762561591,
+					"parameters": {
+						"animation": "\"RedButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "InvisiblePlateform_1",
+					"sid": 883160811320794,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "InvisiblePlateform_1",
+					"sid": 112337863706825,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 596206411173180
+				}
+			],
+			"sid": 226786635315972
 		},
 		{
 			"eventType": "comment",
