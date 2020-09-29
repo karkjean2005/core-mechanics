@@ -605,6 +605,14 @@
 					"parameters": {
 						"object": "Button_3"
 					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_3",
+					"sid": 820099175120498,
+					"parameters": {
+						"animation": "\"RedButton\""
+					}
 				}
 			],
 			"actions": [
@@ -646,25 +654,72 @@
 					"parameters": {
 						"collisions": "enabled"
 					}
+				}
+			],
+			"sid": 591819548632592
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 922865695433177,
+					"parameters": {
+						"object": "Button_3"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_3",
+					"sid": 106867505274386,
+					"parameters": {
+						"animation": "\"GreenButton\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_3",
+					"sid": 155917970151920,
+					"parameters": {
+						"animation": "\"RedButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 572097821102867
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 538365009147389,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
 				},
 				{
 					"id": "set-visible",
-					"objectClass": "InvisiblePlateform_5",
-					"sid": 842116590696143,
+					"objectClass": "InvisiblePlateform_4",
+					"sid": 918188983717255,
 					"parameters": {
-						"visibility": "visible"
+						"visibility": "invisible"
 					}
 				},
 				{
 					"id": "set-collisions-enabled",
-					"objectClass": "InvisiblePlateform_5",
-					"sid": 187577260759097,
+					"objectClass": "InvisiblePlateform_4",
+					"sid": 771571067181425,
 					"parameters": {
-						"collisions": "enabled"
+						"collisions": "disabled"
 					}
 				}
 			],
-			"sid": 591819548632592
+			"sid": 622219579330302
 		},
 		{
 			"eventType": "comment",
@@ -825,14 +880,6 @@
 					}
 				},
 				{
-					"id": "set-collisions-enabled",
-					"objectClass": "Button_4",
-					"sid": 990364192312820,
-					"parameters": {
-						"collisions": "disabled"
-					}
-				},
-				{
 					"id": "destroy",
 					"objectClass": "Enemy4",
 					"sid": 278224735319427
@@ -907,14 +954,6 @@
 						"layer": "0",
 						"x": "1379",
 						"y": "35"
-					}
-				},
-				{
-					"id": "set-collisions-enabled",
-					"objectClass": "Button_5",
-					"sid": 977356998655948,
-					"parameters": {
-						"collisions": "disabled"
 					}
 				},
 				{
