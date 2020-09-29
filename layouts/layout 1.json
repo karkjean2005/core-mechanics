@@ -130,8 +130,8 @@
 						}
 					},
 					"world": {
-						"x": 88,
-						"y": 803,
+						"x": 60,
+						"y": 810,
 						"width": 65.72670690061993,
 						"height": 65.72670690061993,
 						"originX": 0.5,
@@ -878,7 +878,7 @@
 						}
 					},
 					"world": {
-						"x": 427,
+						"x": 412,
 						"y": 125,
 						"width": 11,
 						"height": 137.74272280629876,
@@ -1360,6 +1360,90 @@
 						"height": 42.02044066163834,
 						"originX": 0.49786628733997157,
 						"originY": 0.4943946188340807,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "StartingInstructions",
+					"properties": {
+						"text": "Turn all the buttons on and reach the goal\n\nArrow keys to move\n\nPress Up to jump\n\nPress Up to shoot",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 15,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 35,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 26,
+						"y": 609,
+						"width": 375,
+						"height": 179,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TriggerInstructions",
+					"properties": {
+						"text": "This blue thing will trigger something once",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 15,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 40,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 14,
+						"y": 31,
+						"width": 252,
+						"height": 72,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,

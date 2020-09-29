@@ -397,6 +397,756 @@
 		},
 		{
 			"eventType": "comment",
+			"text": "First button"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 131516755218371,
+					"parameters": {
+						"object": "Button_1"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_1",
+					"sid": 846083657465555,
+					"parameters": {
+						"animation": "\"RedButton\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_1",
+					"sid": 206803278966797,
+					"parameters": {
+						"animation": "\"GreenButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "InvisiblePlateform_1",
+					"sid": 862269721110269,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "InvisiblePlateform_1",
+					"sid": 608969000095020,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 182150888158298
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 486888154889263,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 356155142849429
+		},
+		{
+			"eventType": "comment",
+			"text": "Turns button off, removes 1 form \"Goal\", and turns platforms off"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 253490943186789,
+					"parameters": {
+						"object": "Button_1"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_1",
+					"sid": 559147477591702,
+					"parameters": {
+						"animation": "\"GreenButton\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_1",
+					"sid": 378715159845291,
+					"parameters": {
+						"animation": "\"RedButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "InvisiblePlateform_1",
+					"sid": 412187780421482,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "InvisiblePlateform_1",
+					"sid": 834095485334360,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 391774572243464
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 682778337861203,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 259427094524850
+		},
+		{
+			"eventType": "comment",
+			"text": "When bullet hits button_2, Invisible Platforms 2 and 3 are visible."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 466459431265736,
+					"parameters": {
+						"object": "Button_2"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_2",
+					"sid": 406823124207987,
+					"parameters": {
+						"animation": "\"RedButton\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_2",
+					"sid": 340312109741774,
+					"parameters": {
+						"animation": "\"GreenButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Enemy",
+					"sid": 941506953133346,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Enemy",
+					"sid": 297004882433696,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "InvisiblePlateform_2",
+					"sid": 641788390920286,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "InvisiblePlateform_2",
+					"sid": 745046669681746,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 639916621805239
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 481802715958334,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 109787046246935
+		},
+		{
+			"eventType": "comment",
+			"text": "Turns button off, removes 1 form \"Goal\", and turns enemies back on, and  turns platforms off"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 719021901658201,
+					"parameters": {
+						"object": "Button_2"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_2",
+					"sid": 629996180269178,
+					"parameters": {
+						"animation": "\"GreenButton\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_2",
+					"sid": 255186111852617,
+					"parameters": {
+						"animation": "\"RedButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Enemy",
+					"sid": 555919663213917,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Enemy",
+					"sid": 360581363810730,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "InvisiblePlateform_2",
+					"sid": 818999000430134,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "InvisiblePlateform_2",
+					"sid": 339581582679158,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 595336878462047
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 961623971747506,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 945339806592469
+		},
+		{
+			"eventType": "comment",
+			"text": "When bullet hits button_3, Invisible Platforms 4 and 5 are visible."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 897774762878888,
+					"parameters": {
+						"object": "Button_3"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_3",
+					"sid": 532510519267016,
+					"parameters": {
+						"animation": "\"RedButton\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_3",
+					"sid": 879377859555956,
+					"parameters": {
+						"animation": "\"GreenButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "InvisiblePlateform_4",
+					"sid": 424762421645254,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "InvisiblePlateform_4",
+					"sid": 945674330596773,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 379201085200949
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 273037931073816,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 441436901295530
+		},
+		{
+			"eventType": "comment",
+			"text": "Turns button 3 off, removes 1 form \"Goal\", and turns platforms back off"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 930604398479565,
+					"parameters": {
+						"object": "Button_3"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_3",
+					"sid": 424193881446042,
+					"parameters": {
+						"animation": "\"GreenButton\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_3",
+					"sid": 149689724654889,
+					"parameters": {
+						"animation": "\"RedButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "InvisiblePlateform_4",
+					"sid": 395523868984994,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "InvisiblePlateform_4",
+					"sid": 271491932012664,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 431199673388763
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 879741864442767,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 347950794218639
+		},
+		{
+			"eventType": "comment",
+			"text": "Bullet hits Button_4."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 378124199289564,
+					"parameters": {
+						"object": "Button_4"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_4",
+					"sid": 172742765287969,
+					"parameters": {
+						"animation": "\"RedButton\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_4",
+					"sid": 617600405477510,
+					"parameters": {
+						"animation": "\"GreenButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 315795643055985,
+					"parameters": {
+						"object-to-create": "MovingPlatform4",
+						"layer": "0",
+						"x": "980",
+						"y": "100"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Enemy3",
+					"sid": 956760183006957,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Enemy3",
+					"sid": 844344039013585,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 350972171109545
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 990046422143767,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 617072638474080,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "MovingPlatform4",
+					"sid": 539096285750633
+				}
+			],
+			"sid": 801619887200041
+		},
+		{
+			"eventType": "comment",
+			"text": "Turns button 4 off, removes 1 form \"Goal\", and turns enemies back on"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 626427828308764,
+					"parameters": {
+						"object": "Button_4"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_4",
+					"sid": 614689883795916,
+					"parameters": {
+						"animation": "\"GreenButton\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_4",
+					"sid": 674053884825572,
+					"parameters": {
+						"animation": "\"RedButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Enemy3",
+					"sid": 855928925577697,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Enemy3",
+					"sid": 716582400871231,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 125901010639447
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 499365121752174,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 276830223902543
+		},
+		{
+			"eventType": "comment",
+			"text": "Bullet hitting Button_5."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 995060183252185,
+					"parameters": {
+						"object": "Button_5"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_5",
+					"sid": 157675064987489,
+					"parameters": {
+						"animation": "\"RedButton\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_5",
+					"sid": 814624514576310,
+					"parameters": {
+						"animation": "\"GreenButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 774989355862342,
+					"parameters": {
+						"object-to-create": "MovingPlatform5",
+						"layer": "0",
+						"x": "1320",
+						"y": "35"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Enemy5",
+					"sid": 157396538509338,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Enemy5",
+					"sid": 511286766944562,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 312553828895183
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 475343192268352,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 336108947540652,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "MovingPlatform5",
+					"sid": 118801861487971
+				}
+			],
+			"sid": 766303687273594
+		},
+		{
+			"eventType": "comment",
+			"text": "Turns button 5 off, removes 1 form \"Goal\", and turns enemies back on"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 481360835697246,
+					"parameters": {
+						"object": "Button_5"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_5",
+					"sid": 510997004083976,
+					"parameters": {
+						"animation": "\"GreenButton\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_5",
+					"sid": 885666267707338,
+					"parameters": {
+						"animation": "\"RedButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Enemy5",
+					"sid": 758250652939168,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Enemy5",
+					"sid": 357613853829093,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 973085770497099
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 466160979965243,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 370155518816753
+		},
+		{
+			"eventType": "comment",
 			"text": "Enables the goal when all buttons are on"
 		},
 		{
@@ -405,7 +1155,7 @@
 				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 759064964150152,
+					"sid": 527810228082456,
 					"parameters": {
 						"variable": "Goal",
 						"comparison": 0,
@@ -417,13 +1167,13 @@
 				{
 					"id": "set-collisions-enabled",
 					"objectClass": "Goal",
-					"sid": 499867917913436,
+					"sid": 289330272006526,
 					"parameters": {
 						"collisions": "enabled"
 					}
 				}
 			],
-			"sid": 208129086735923
+			"sid": 515857408360542
 		},
 		{
 			"eventType": "comment",
@@ -435,7 +1185,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Player",
-					"sid": 901492137832955,
+					"sid": 809448686231715,
 					"parameters": {
 						"object": "Goal"
 					}
@@ -445,13 +1195,13 @@
 				{
 					"id": "go-to-nextprevious-layout",
 					"objectClass": "System",
-					"sid": 991753793089479,
+					"sid": 795564113104054,
 					"parameters": {
 						"which": "next"
 					}
 				}
 			],
-			"sid": 559572280990572
+			"sid": 209610652360936
 		},
 		{
 			"eventType": "comment",
@@ -463,781 +1213,51 @@
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 703058187791222
+					"sid": 203336466979728
 				}
 			],
 			"actions": [
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 812813579722616,
+					"sid": 402219749760178,
 					"parameters": {
 						"variable": "Goal",
 						"value": "0"
 					}
 				}
 			],
-			"sid": 468367289187565
+			"sid": 317406039936189
 		},
 		{
-			"eventType": "group",
-			"disabled": false,
-			"title": "Buttons",
-			"description": "What they do",
-			"isActiveOnStart": true,
-			"children": [
+			"eventType": "comment",
+			"text": "Disables the goal when not all the buttons are on"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
 				{
-					"eventType": "comment",
-					"text": "First button"
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Bullet",
-							"sid": 789378170192019,
-							"parameters": {
-								"object": "Button_1"
-							}
-						},
-						{
-							"id": "is-animation-playing",
-							"objectClass": "Button_1",
-							"sid": 237038267421126,
-							"parameters": {
-								"animation": "\"RedButton\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "Button_1",
-							"sid": 947011397530847,
-							"parameters": {
-								"animation": "\"GreenButton\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "InvisiblePlateform_1",
-							"sid": 358002274248239,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "set-collisions-enabled",
-							"objectClass": "InvisiblePlateform_1",
-							"sid": 368895350262153,
-							"parameters": {
-								"collisions": "enabled"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "Bullet",
-							"sid": 632105269506824
-						},
-						{
-							"id": "add-to-eventvar",
-							"objectClass": "System",
-							"sid": 236108105353954,
-							"parameters": {
-								"variable": "Goal",
-								"value": "1"
-							}
-						}
-					],
-					"sid": 118881968112992
-				},
-				{
-					"eventType": "comment",
-					"text": "Turns button off, removes 1 form \"Goal\", and turns platforms off"
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Bullet",
-							"sid": 821468119647532,
-							"parameters": {
-								"object": "Button_1"
-							}
-						},
-						{
-							"id": "is-animation-playing",
-							"objectClass": "Button_1",
-							"sid": 180584540251787,
-							"parameters": {
-								"animation": "\"GreenButton\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "Button_1",
-							"sid": 609500835877838,
-							"parameters": {
-								"animation": "\"RedButton\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "InvisiblePlateform_1",
-							"sid": 839835970823035,
-							"parameters": {
-								"visibility": "invisible"
-							}
-						},
-						{
-							"id": "set-collisions-enabled",
-							"objectClass": "InvisiblePlateform_1",
-							"sid": 197538679578696,
-							"parameters": {
-								"collisions": "disabled"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "Bullet",
-							"sid": 845069776289708
-						},
-						{
-							"id": "subtract-from-eventvar",
-							"objectClass": "System",
-							"sid": 728680424874156,
-							"parameters": {
-								"variable": "Goal",
-								"value": "1"
-							}
-						}
-					],
-					"sid": 595517279015745
-				},
-				{
-					"eventType": "comment",
-					"text": "When bullet hits button_2, Invisible Platforms 2 and 3 are visible."
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Bullet",
-							"sid": 420289028449559,
-							"parameters": {
-								"object": "Button_2"
-							}
-						},
-						{
-							"id": "is-animation-playing",
-							"objectClass": "Button_2",
-							"sid": 207401860353942,
-							"parameters": {
-								"animation": "\"RedButton\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "Button_2",
-							"sid": 259477516650300,
-							"parameters": {
-								"animation": "\"GreenButton\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Enemy",
-							"sid": 760714594219267,
-							"parameters": {
-								"visibility": "invisible"
-							}
-						},
-						{
-							"id": "set-collisions-enabled",
-							"objectClass": "Enemy",
-							"sid": 496098218903242,
-							"parameters": {
-								"collisions": "disabled"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "InvisiblePlateform_2",
-							"sid": 735715245834836,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "set-collisions-enabled",
-							"objectClass": "InvisiblePlateform_2",
-							"sid": 722782146006948,
-							"parameters": {
-								"collisions": "enabled"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "Bullet",
-							"sid": 288721183789093
-						},
-						{
-							"id": "add-to-eventvar",
-							"objectClass": "System",
-							"sid": 849198452898020,
-							"parameters": {
-								"variable": "Goal",
-								"value": "1"
-							}
-						}
-					],
-					"sid": 639658250989249
-				},
-				{
-					"eventType": "comment",
-					"text": "Turns button off, removes 1 form \"Goal\", and turns enemies back on, and  turns platforms off"
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Bullet",
-							"sid": 602885066595887,
-							"parameters": {
-								"object": "Button_2"
-							}
-						},
-						{
-							"id": "is-animation-playing",
-							"objectClass": "Button_2",
-							"sid": 837609435828108,
-							"parameters": {
-								"animation": "\"GreenButton\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "Button_2",
-							"sid": 545630336726333,
-							"parameters": {
-								"animation": "\"RedButton\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Enemy",
-							"sid": 146760806780716,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "set-collisions-enabled",
-							"objectClass": "Enemy",
-							"sid": 818213530932032,
-							"parameters": {
-								"collisions": "enabled"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "InvisiblePlateform_2",
-							"sid": 166939164505770,
-							"parameters": {
-								"visibility": "invisible"
-							}
-						},
-						{
-							"id": "set-collisions-enabled",
-							"objectClass": "InvisiblePlateform_2",
-							"sid": 613646344887349,
-							"parameters": {
-								"collisions": "disabled"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "Bullet",
-							"sid": 359460109231576
-						},
-						{
-							"id": "subtract-from-eventvar",
-							"objectClass": "System",
-							"sid": 985604542127291,
-							"parameters": {
-								"variable": "Goal",
-								"value": "1"
-							}
-						}
-					],
-					"sid": 920298580690299
-				},
-				{
-					"eventType": "comment",
-					"text": "When bullet hits button_3, Invisible Platforms 4 and 5 are visible."
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Bullet",
-							"sid": 881480449626686,
-							"parameters": {
-								"object": "Button_3"
-							}
-						},
-						{
-							"id": "is-animation-playing",
-							"objectClass": "Button_3",
-							"sid": 573189290230246,
-							"parameters": {
-								"animation": "\"RedButton\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "Button_3",
-							"sid": 743449033947092,
-							"parameters": {
-								"animation": "\"GreenButton\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "InvisiblePlateform_4",
-							"sid": 140787889399961,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "set-collisions-enabled",
-							"objectClass": "InvisiblePlateform_4",
-							"sid": 222297043582338,
-							"parameters": {
-								"collisions": "enabled"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "Bullet",
-							"sid": 535359484692538
-						},
-						{
-							"id": "add-to-eventvar",
-							"objectClass": "System",
-							"sid": 221111145806058,
-							"parameters": {
-								"variable": "Goal",
-								"value": "1"
-							}
-						}
-					],
-					"sid": 174488402536475
-				},
-				{
-					"eventType": "comment",
-					"text": "Turns button 3 off, removes 1 form \"Goal\", and turns platforms back off"
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Bullet",
-							"sid": 753494233065047,
-							"parameters": {
-								"object": "Button_3"
-							}
-						},
-						{
-							"id": "is-animation-playing",
-							"objectClass": "Button_3",
-							"sid": 589889226416362,
-							"parameters": {
-								"animation": "\"GreenButton\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "Button_3",
-							"sid": 681126263949296,
-							"parameters": {
-								"animation": "\"RedButton\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "InvisiblePlateform_4",
-							"sid": 525026334014020,
-							"parameters": {
-								"visibility": "invisible"
-							}
-						},
-						{
-							"id": "set-collisions-enabled",
-							"objectClass": "InvisiblePlateform_4",
-							"sid": 137702517028898,
-							"parameters": {
-								"collisions": "disabled"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "Bullet",
-							"sid": 608791552719188
-						},
-						{
-							"id": "subtract-from-eventvar",
-							"objectClass": "System",
-							"sid": 107645189540009,
-							"parameters": {
-								"variable": "Goal",
-								"value": "1"
-							}
-						}
-					],
-					"sid": 133857603611982
-				},
-				{
-					"eventType": "comment",
-					"text": "Bullet hits Button_4."
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Bullet",
-							"sid": 388321453800738,
-							"parameters": {
-								"object": "Button_4"
-							}
-						},
-						{
-							"id": "is-animation-playing",
-							"objectClass": "Button_4",
-							"sid": 281502342946227,
-							"parameters": {
-								"animation": "\"RedButton\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "Button_4",
-							"sid": 387517476094000,
-							"parameters": {
-								"animation": "\"GreenButton\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "create-object",
-							"objectClass": "System",
-							"sid": 213504901962334,
-							"parameters": {
-								"object-to-create": "MovingPlatform4",
-								"layer": "0",
-								"x": "980",
-								"y": "100"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Enemy3",
-							"sid": 118435749356775,
-							"parameters": {
-								"visibility": "invisible"
-							}
-						},
-						{
-							"id": "set-collisions-enabled",
-							"objectClass": "Enemy3",
-							"sid": 631874930858444,
-							"parameters": {
-								"collisions": "disabled"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "Bullet",
-							"sid": 144474304820180
-						},
-						{
-							"id": "add-to-eventvar",
-							"objectClass": "System",
-							"sid": 454371678842569,
-							"parameters": {
-								"variable": "Goal",
-								"value": "1"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 289619535344264,
-							"parameters": {
-								"seconds": "3"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "MovingPlatform4",
-							"sid": 925164174373151
-						}
-					],
-					"sid": 403879767464636
-				},
-				{
-					"eventType": "comment",
-					"text": "Turns button 4 off, removes 1 form \"Goal\", and turns enemies back on"
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Bullet",
-							"sid": 748092397129369,
-							"parameters": {
-								"object": "Button_4"
-							}
-						},
-						{
-							"id": "is-animation-playing",
-							"objectClass": "Button_4",
-							"sid": 961087033520078,
-							"parameters": {
-								"animation": "\"GreenButton\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "Button_4",
-							"sid": 615949581699208,
-							"parameters": {
-								"animation": "\"RedButton\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Enemy3",
-							"sid": 895684615105869,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "set-collisions-enabled",
-							"objectClass": "Enemy3",
-							"sid": 279115494379017,
-							"parameters": {
-								"collisions": "enabled"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "Bullet",
-							"sid": 585127181650351
-						},
-						{
-							"id": "subtract-from-eventvar",
-							"objectClass": "System",
-							"sid": 701172863064221,
-							"parameters": {
-								"variable": "Goal",
-								"value": "1"
-							}
-						}
-					],
-					"sid": 924706256822723
-				},
-				{
-					"eventType": "comment",
-					"text": "Bullet hitting Button_5."
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Bullet",
-							"sid": 318688630619886,
-							"parameters": {
-								"object": "Button_5"
-							}
-						},
-						{
-							"id": "is-animation-playing",
-							"objectClass": "Button_5",
-							"sid": 493613778244367,
-							"parameters": {
-								"animation": "\"RedButton\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "Button_5",
-							"sid": 157663404965796,
-							"parameters": {
-								"animation": "\"GreenButton\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "create-object",
-							"objectClass": "System",
-							"sid": 512292003185835,
-							"parameters": {
-								"object-to-create": "MovingPlatform5",
-								"layer": "0",
-								"x": "1320",
-								"y": "35"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Enemy5",
-							"sid": 432577583836421,
-							"parameters": {
-								"visibility": "invisible"
-							}
-						},
-						{
-							"id": "set-collisions-enabled",
-							"objectClass": "Enemy5",
-							"sid": 432199292893188,
-							"parameters": {
-								"collisions": "disabled"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "Bullet",
-							"sid": 458566895567621
-						},
-						{
-							"id": "add-to-eventvar",
-							"objectClass": "System",
-							"sid": 657761784777183,
-							"parameters": {
-								"variable": "Goal",
-								"value": "1"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 472894634744852,
-							"parameters": {
-								"seconds": "3"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "MovingPlatform5",
-							"sid": 341444018301057
-						}
-					],
-					"sid": 814239533442428
-				},
-				{
-					"eventType": "comment",
-					"text": "Turns button 5 off, removes 1 form \"Goal\", and turns enemies back on"
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Bullet",
-							"sid": 819449588324238,
-							"parameters": {
-								"object": "Button_5"
-							}
-						},
-						{
-							"id": "is-animation-playing",
-							"objectClass": "Button_5",
-							"sid": 584543077096199,
-							"parameters": {
-								"animation": "\"GreenButton\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "Button_5",
-							"sid": 701654580783358,
-							"parameters": {
-								"animation": "\"RedButton\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "Enemy5",
-							"sid": 413657612291061,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "set-collisions-enabled",
-							"objectClass": "Enemy5",
-							"sid": 717852614703263,
-							"parameters": {
-								"collisions": "enabled"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "Bullet",
-							"sid": 301443915336223
-						},
-						{
-							"id": "subtract-from-eventvar",
-							"objectClass": "System",
-							"sid": 232858102588780,
-							"parameters": {
-								"variable": "Goal",
-								"value": "1"
-							}
-						}
-					],
-					"sid": 362275819264621
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 348345680560448,
+					"parameters": {
+						"variable": "Goal",
+						"comparison": 2,
+						"value": "5"
+					}
 				}
 			],
-			"sid": 625060675175253
+			"actions": [
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Goal",
+					"sid": 266905494393247,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				}
+			],
+			"sid": 404386501198855
 		}
 	],
 	"sid": 919652938950309
