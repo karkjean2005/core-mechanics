@@ -626,20 +626,6 @@
 					}
 				},
 				{
-					"id": "destroy",
-					"objectClass": "Bullet",
-					"sid": 919798044802244
-				},
-				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 771492341091845,
-					"parameters": {
-						"variable": "Goal",
-						"value": "1"
-					}
-				},
-				{
 					"id": "set-visible",
 					"objectClass": "InvisiblePlateform_4",
 					"sid": 120997553188950,
@@ -653,6 +639,20 @@
 					"sid": 883337594790179,
 					"parameters": {
 						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 664223411453783
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 769876962758981,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
 					}
 				}
 			],
@@ -682,24 +682,10 @@
 				{
 					"id": "set-animation",
 					"objectClass": "Button_3",
-					"sid": 155917970151920,
+					"sid": 256807599809097,
 					"parameters": {
 						"animation": "\"RedButton\"",
 						"from": "beginning"
-					}
-				},
-				{
-					"id": "destroy",
-					"objectClass": "Bullet",
-					"sid": 572097821102867
-				},
-				{
-					"id": "subtract-from-eventvar",
-					"objectClass": "System",
-					"sid": 538365009147389,
-					"parameters": {
-						"variable": "Goal",
-						"value": "1"
 					}
 				},
 				{
@@ -717,6 +703,20 @@
 					"parameters": {
 						"collisions": "disabled"
 					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 256866113369013
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 843229393841547,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
 				}
 			],
 			"sid": 622219579330302
@@ -731,7 +731,7 @@
 				{
 					"id": "compare-distance-travelled",
 					"objectClass": "Bullet",
-					"sid": 640820925011443,
+					"sid": 265238768055765,
 					"behaviorType": "Bullet",
 					"parameters": {
 						"comparison": 5,
@@ -743,7 +743,7 @@
 				{
 					"id": "destroy",
 					"objectClass": "Bullet",
-					"sid": 360474188984330
+					"sid": 270775299629607
 				}
 			],
 			"sid": 916687943359855
@@ -766,30 +766,19 @@
 			],
 			"actions": [
 				{
-					"id": "create-object",
-					"objectClass": "System",
-					"sid": 473805560987500,
-					"parameters": {
-						"object-to-create": "MovingPlatform3",
-						"layer": "0",
-						"x": "617",
-						"y": "149"
-					}
-				},
-				{
 					"id": "set-visible",
-					"objectClass": "Trigger3",
-					"sid": 568313831009848,
+					"objectClass": "InvisiblePlateform_3",
+					"sid": 186969714208975,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "visible"
 					}
 				},
 				{
 					"id": "set-collisions-enabled",
-					"objectClass": "Trigger3",
-					"sid": 420897257398668,
+					"objectClass": "InvisiblePlateform_3",
+					"sid": 130259667261189,
 					"parameters": {
-						"collisions": "disabled"
+						"collisions": "enabled"
 					}
 				}
 			],
@@ -842,6 +831,14 @@
 					"parameters": {
 						"object": "Button_4"
 					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_4",
+					"sid": 369532647987307,
+					"parameters": {
+						"animation": "\"RedButton\""
+					}
 				}
 			],
 			"actions": [
@@ -855,46 +852,52 @@
 					}
 				},
 				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 243980736475329,
+					"parameters": {
+						"object-to-create": "MovingPlatform4",
+						"layer": "0",
+						"x": "980",
+						"y": "100"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Enemy3",
+					"sid": 541968114202745,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Enemy3",
+					"sid": 480146357313836,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
 					"id": "destroy",
 					"objectClass": "Bullet",
-					"sid": 955502217713832
+					"sid": 422013375121461
 				},
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 793681110041344,
+					"sid": 471703723973229,
 					"parameters": {
 						"variable": "Goal",
 						"value": "1"
 					}
 				},
 				{
-					"id": "create-object",
-					"objectClass": "System",
-					"sid": 942137766324471,
-					"parameters": {
-						"object-to-create": "MovingPlatform4",
-						"layer": "0",
-						"x": "995",
-						"y": "87"
-					}
-				},
-				{
-					"id": "destroy",
-					"objectClass": "Enemy4",
-					"sid": 278224735319427
-				},
-				{
-					"id": "destroy",
-					"objectClass": "Enemy3",
-					"sid": 206012427637870
-				},
-				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 562666709583287,
+					"sid": 210952347506929,
 					"parameters": {
-						"seconds": "3.0"
+						"seconds": "3"
 					}
 				},
 				{
@@ -904,6 +907,69 @@
 				}
 			],
 			"sid": 889372610535460
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 888358794570925,
+					"parameters": {
+						"object": "Button_4"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_4",
+					"sid": 493912262554221,
+					"parameters": {
+						"animation": "\"GreenButton\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_4",
+					"sid": 243958402124420,
+					"parameters": {
+						"animation": "\"RedButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Enemy3",
+					"sid": 339600284039586,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Enemy3",
+					"sid": 547819300170896,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 353316170059371
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 912438959963362,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 177157452717604
 		},
 		{
 			"eventType": "comment",
@@ -919,6 +985,14 @@
 					"parameters": {
 						"object": "Button_5"
 					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_5",
+					"sid": 576001547572198,
+					"parameters": {
+						"animation": "\"RedButton\""
+					}
 				}
 			],
 			"actions": [
@@ -932,46 +1006,52 @@
 					}
 				},
 				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 993995873625774,
+					"parameters": {
+						"object-to-create": "MovingPlatform5",
+						"layer": "0",
+						"x": "1320",
+						"y": "35"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Enemy5",
+					"sid": 810359848777554,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Enemy5",
+					"sid": 781221379452602,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
 					"id": "destroy",
 					"objectClass": "Bullet",
-					"sid": 428141681810597
+					"sid": 601125341841471
 				},
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 569512943708369,
+					"sid": 341244935076812,
 					"parameters": {
 						"variable": "Goal",
 						"value": "1"
 					}
 				},
 				{
-					"id": "create-object",
-					"objectClass": "System",
-					"sid": 391442665450149,
-					"parameters": {
-						"object-to-create": "MovingPlatform5",
-						"layer": "0",
-						"x": "1379",
-						"y": "35"
-					}
-				},
-				{
-					"id": "destroy",
-					"objectClass": "Enemy5",
-					"sid": 530886980917297
-				},
-				{
-					"id": "destroy",
-					"objectClass": "Enemy6",
-					"sid": 348710852931591
-				},
-				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 574623945986646,
+					"sid": 778931183470677,
 					"parameters": {
-						"seconds": "3.0"
+						"seconds": "3"
 					}
 				},
 				{
@@ -981,6 +1061,69 @@
 				}
 			],
 			"sid": 483822617987494
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 919186445088093,
+					"parameters": {
+						"object": "Button_5"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Button_5",
+					"sid": 312743670254548,
+					"parameters": {
+						"animation": "\"GreenButton\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Button_5",
+					"sid": 930840220284363,
+					"parameters": {
+						"animation": "\"RedButton\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Enemy5",
+					"sid": 133173258423837,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "Enemy5",
+					"sid": 237367528217813,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 128212847999947
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 814324034509778,
+					"parameters": {
+						"variable": "Goal",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 770501489811206
 		},
 		{
 			"eventType": "block",
