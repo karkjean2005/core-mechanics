@@ -448,42 +448,6 @@
 					}
 				},
 				{
-					"type": "Wall",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 14,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": "Wall"
-							}
-						}
-					},
-					"world": {
-						"x": 1415,
-						"y": 826,
-						"width": 232.01658548279772,
-						"height": 23.000000000000007,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 1.5673407040875187,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Trigger",
 					"properties": {
 						"initially-visible": false,
@@ -502,35 +466,6 @@
 						"height": 174.60222693853007,
 						"originX": 0.5,
 						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Enemy2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 16,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1609,
-						"y": 732,
-						"width": 112.23047434719912,
-						"height": 71.2016949628034,
-						"originX": 0.49786628733997157,
-						"originY": 0.4943946188340807,
 						"color": [
 							1,
 							1,
@@ -561,44 +496,8 @@
 						}
 					},
 					"world": {
-						"x": 1343,
-						"y": 842,
-						"width": 108,
-						"height": 35,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "InvisiblePlateform_3",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": false,
-						"live-preview": false
-					},
-					"uid": 18,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 1485,
-						"y": 753,
+						"x": 1412,
+						"y": 784,
 						"width": 108,
 						"height": 35,
 						"originX": 0.5,
@@ -874,42 +773,6 @@
 					}
 				},
 				{
-					"type": "Wall2",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 25,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": "Wall"
-							}
-						}
-					},
-					"world": {
-						"x": 183,
-						"y": 349,
-						"width": 232.01658548279772,
-						"height": 23.000000000000007,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 1.5673407040875187,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "InvisiblePlateform_4",
 					"properties": {
 						"initially-visible": false,
@@ -1034,7 +897,7 @@
 				{
 					"type": "Trigger3",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -1440,6 +1303,35 @@
 						"height": 34.197275930426315,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Enemy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 14,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1613,
+						"y": 734,
+						"width": 112.23047434719912,
+						"height": 71.2016949628034,
+						"originX": 0.49786628733997157,
+						"originY": 0.4943946188340807,
 						"color": [
 							1,
 							1,
