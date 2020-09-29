@@ -1,0 +1,16 @@
+{
+	"name": "EnemyFamily",
+	"plugin-id": "Sprite",
+	"sid": 656946513755134,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"Enemy5",
+		"Enemy6",
+		"Enemy",
+		"Enemy2",
+		"Enemy3",
+		"Enemy4"
+	]
+}

@@ -493,7 +493,7 @@
 		},
 		{
 			"eventType": "comment",
-			"text": "When bullet hits enemy, restart layout."
+			"text": "When bullet hits any enemy, restart layout."
 		},
 		{
 			"eventType": "block",
@@ -501,9 +501,9 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Bullet",
-					"sid": 134721536565287,
+					"sid": 642402892489632,
 					"parameters": {
-						"object": "Enemy"
+						"object": "EnemyFamily"
 					}
 				}
 			],
@@ -518,17 +518,17 @@
 		},
 		{
 			"eventType": "comment",
-			"text": "When bullet hits enemy2, restart layout."
+			"text": "Player hits any enemy, restart layout."
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Bullet",
-					"sid": 595819428887282,
+					"objectClass": "Player",
+					"sid": 452024562791560,
 					"parameters": {
-						"object": "Enemy2"
+						"object": "EnemyFamily"
 					}
 				}
 			],
@@ -536,10 +536,10 @@
 				{
 					"id": "restart-layout",
 					"objectClass": "System",
-					"sid": 973731508876517
+					"sid": 226562119641011
 				}
 			],
-			"sid": 910879202606525
+			"sid": 239243423240687
 		},
 		{
 			"eventType": "comment",
@@ -860,106 +860,6 @@
 		},
 		{
 			"eventType": "comment",
-			"text": "Bullet hits enemy3, restart layout."
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Bullet",
-					"sid": 751801565464605,
-					"parameters": {
-						"object": "Enemy3"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 938945149025381
-				}
-			],
-			"sid": 161453351214202
-		},
-		{
-			"eventType": "comment",
-			"text": "Bullet hits enemy4, restart layout."
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Bullet",
-					"sid": 453388230346612,
-					"parameters": {
-						"object": "Enemy4"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 656795749999931
-				}
-			],
-			"sid": 267271540921853
-		},
-		{
-			"eventType": "comment",
-			"text": "Player hits enemy3, restart layout."
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Player",
-					"sid": 570532636908718,
-					"parameters": {
-						"object": "Enemy3"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 871508404402052
-				}
-			],
-			"sid": 236639068528209
-		},
-		{
-			"eventType": "comment",
-			"text": "Player hits enemy4, restart layout."
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Player",
-					"sid": 865276018945062,
-					"parameters": {
-						"object": "Enemy4"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 312753708587642
-				}
-			],
-			"sid": 197692400410119
-		},
-		{
-			"eventType": "comment",
 			"text": "Bullet hitting Button_5."
 		},
 		{
@@ -1042,106 +942,6 @@
 				}
 			],
 			"sid": 483822617987494
-		},
-		{
-			"eventType": "comment",
-			"text": "Bullet hits enemy5, restart layout."
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Bullet",
-					"sid": 623914849526050,
-					"parameters": {
-						"object": "Enemy5"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 749436404454978
-				}
-			],
-			"sid": 737996114405638
-		},
-		{
-			"eventType": "comment",
-			"text": "Bullet hits enemy6, restart layout."
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Bullet",
-					"sid": 792665074448305,
-					"parameters": {
-						"object": "Enemy6"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 794424245821868
-				}
-			],
-			"sid": 801454891906448
-		},
-		{
-			"eventType": "comment",
-			"text": "Player hits enemy5 restart layout."
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Player",
-					"sid": 707884669448142,
-					"parameters": {
-						"object": "Enemy5"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 627633602593411
-				}
-			],
-			"sid": 834616856012565
-		},
-		{
-			"eventType": "comment",
-			"text": "Player hits enemy6, restart layout."
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Player",
-					"sid": 133934894181185,
-					"parameters": {
-						"object": "Enemy6"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 445406580423539
-				}
-			],
-			"sid": 184008189832396
 		},
 		{
 			"eventType": "block",
