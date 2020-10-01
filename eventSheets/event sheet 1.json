@@ -361,6 +361,22 @@
 					"parameters": {
 						"collisions": "enabled"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Trigger3",
+					"sid": 466607472502411,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TriggerInstructions",
+					"sid": 157063789121513,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 542487795604956
@@ -760,6 +776,14 @@
 					"parameters": {
 						"variable": "Goal",
 						"value": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TriggerInstructions",
+					"sid": 833642344864690,
+					"parameters": {
+						"visibility": "visible"
 					}
 				}
 			],

@@ -30,9 +30,205 @@
 			"global": false
 		},
 		{
+			"name": "UI",
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "StartingInstructions",
+					"properties": {
+						"text": "Turn all the buttons on and reach the goal\n\nArrow keys to move\n\nPress Up to jump\n\nPress Up to shoot",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 15,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 35,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 26,
+						"y": 609,
+						"width": 375,
+						"height": 179,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TriggerInstructions",
+					"properties": {
+						"text": "This blue thing will trigger something once",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 15,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 40,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 26,
+						"y": 34,
+						"width": 252,
+						"height": 72,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 390481935078272,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		},
+		{
 			"name": "Game",
 			"overriden": 0,
 			"instances": [
+				{
+					"type": "Button_1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "RedButton",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 7,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 549,
+						"y": 853,
+						"width": 50.49752469181038,
+						"height": 70.69653456853453,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Player",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Right",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 2,
+					"instanceVariables": {},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": true,
+								"enabled": true
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						},
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
+					"world": {
+						"x": 70,
+						"y": 857,
+						"width": 65.72670690061993,
+						"height": 65.72670690061993,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
 				{
 					"type": "Ground",
 					"properties": {
@@ -169,7 +365,7 @@
 						}
 					},
 					"world": {
-						"x": 412,
+						"x": 423,
 						"y": 125,
 						"width": 11,
 						"height": 137.74272280629876,
@@ -450,35 +646,6 @@
 					}
 				},
 				{
-					"type": "Button_1",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "RedButton",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 7,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 549,
-						"y": 853,
-						"width": 50.49752469181038,
-						"height": 70.69653456853453,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Button_2",
 					"properties": {
 						"initially-visible": true,
@@ -491,10 +658,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1620,
-						"y": 802,
-						"width": 50.49752469181038,
-						"height": 50.49752469181038,
+						"x": 1609.247533908675,
+						"y": 766.9752043635708,
+						"width": 36.35096248435295,
+						"height": 36.35096248435295,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -663,10 +830,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1608,
-						"y": 871,
-						"width": 112.23047434719912,
-						"height": 71.2016949628034,
+						"x": 1611,
+						"y": 821,
+						"width": 78.07483374665024,
+						"height": 49.53254032860028,
 						"originX": 0.49786628733997157,
 						"originY": 0.4943946188340807,
 						"color": [
@@ -692,10 +859,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1613,
-						"y": 734,
-						"width": 112.23047434719912,
-						"height": 71.2016949628034,
+						"x": 1608.9778966463805,
+						"y": 718.7769089225377,
+						"width": 77.24589218615287,
+						"height": 49.006639992922004,
 						"originX": 0.49786628733997157,
 						"originY": 0.4943946188340807,
 						"color": [
@@ -903,7 +1070,7 @@
 					},
 					"world": {
 						"x": 1412,
-						"y": 784,
+						"y": 794,
 						"width": 108,
 						"height": 35,
 						"originX": 0.5,
@@ -1191,60 +1358,6 @@
 					}
 				},
 				{
-					"type": "Player",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Right",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 2,
-					"instanceVariables": {},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 330,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": true,
-								"enabled": true
-							}
-						},
-						"ScrollTo": {
-							"properties": {
-								"enabled": true
-							}
-						},
-						"BoundToLayout": {
-							"properties": {
-								"bound-by": "edge"
-							}
-						}
-					},
-					"world": {
-						"x": 70,
-						"y": 857,
-						"width": 65.72670690061993,
-						"height": 65.72670690061993,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Switch",
 					"properties": {
 						"initially-visible": true,
@@ -1412,119 +1525,6 @@
 				}
 			],
 			"sid": 748298028805672,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"color": [
-				1,
-				1,
-				1,
-				1
-			],
-			"backgroundColor": [
-				1,
-				1,
-				1,
-				1
-			],
-			"isTransparent": true,
-			"parallaxX": 1,
-			"parallaxY": 1,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"global": false
-		},
-		{
-			"name": "UI",
-			"overriden": 0,
-			"instances": [
-				{
-					"type": "TriggerInstructions",
-					"properties": {
-						"text": "This blue thing will trigger something once",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 15,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 40,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 14,
-						"y": 31,
-						"width": 252,
-						"height": 72,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "StartingInstructions",
-					"properties": {
-						"text": "Turn all the buttons on and reach the goal\n\nArrow keys to move\n\nPress Up to jump\n\nPress Up to shoot",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 15,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 35,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 26,
-						"y": 609,
-						"width": 375,
-						"height": 179,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				}
-			],
-			"sid": 390481935078272,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
