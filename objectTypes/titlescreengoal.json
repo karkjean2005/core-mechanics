@@ -1,16 +1,11 @@
 {
-	"name": "DeathTile",
+	"name": "TitleScreenGoal",
 	"plugin-id": "Sprite",
-	"sid": 981341331900423,
+	"sid": 926952067956547,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
-	"effectTypes": [
-		{
-			"effectId": "pulse",
-			"name": "Pulse"
-		}
-	],
+	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
@@ -23,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7973378,
+						"imageSpriteId": 5349201,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 206656028346342,
+				"sid": 980753618082996,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -1,16 +1,17 @@
 {
-	"name": "DeathTile",
+	"name": "Ground2",
 	"plugin-id": "Sprite",
-	"sid": 981341331900423,
+	"sid": 274933257511442,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
-	"effectTypes": [
+	"behaviorTypes": [
 		{
-			"effectId": "pulse",
-			"name": "Pulse"
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 251370887020722
 		}
 	],
+	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
@@ -23,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7973378,
+						"imageSpriteId": 958435,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 206656028346342,
+				"sid": 533036574292609,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

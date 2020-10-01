@@ -612,7 +612,7 @@
 				{
 					"type": "DeathTile",
 					"properties": {
-						"initially-visible": false,
+						"initially-visible": true,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -621,11 +621,23 @@
 					"uid": 10,
 					"instanceVariables": {},
 					"behaviors": {},
+					"effects": {
+						"Pulse": {
+							"parameters": {
+								"intensity": 0.6,
+								"lighting": 0.5,
+								"speed": 10,
+								"frequency": 30,
+								"center-x": 0.5,
+								"center-y": 0.5
+							}
+						}
+					},
 					"world": {
 						"x": 854.3313783285496,
-						"y": 961.4820378097604,
+						"y": 956.0098155875382,
 						"width": 1709.9306590119381,
-						"height": 6.801433578112324,
+						"height": 14.440322467001351,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1216,8 +1228,8 @@
 						}
 					},
 					"world": {
-						"x": 367,
-						"y": 157,
+						"x": 70,
+						"y": 857,
 						"width": 65.72670690061993,
 						"height": 65.72670690061993,
 						"originX": 0.5,
@@ -1274,10 +1286,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1207,
-						"y": 802.801113469265,
+						"x": 492,
+						"y": 765.5,
 						"width": 11,
-						"height": 174.60222693853007,
+						"height": 120.60222693853007,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

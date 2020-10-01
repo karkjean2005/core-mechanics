@@ -1,0 +1,175 @@
+{
+	"name": "TS Event Sheet",
+	"events": [
+		{
+			"eventType": "comment",
+			"text": "When player collides with TitleScreenGoal, go to layout 1."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player2",
+					"sid": 264804750046875,
+					"parameters": {
+						"object": "TitleScreenGoal"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 583291976562242,
+					"parameters": {
+						"layout": "Layout 1"
+					}
+				}
+			],
+			"sid": 746870016119211
+		},
+		{
+			"eventType": "comment",
+			"text": "Animation left."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 847227111697397,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player2",
+					"sid": 107176079641812,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 874451977122221
+		},
+		{
+			"eventType": "comment",
+			"text": "Animation right."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 557452205757417,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player2",
+					"sid": 734059933976901,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 823359040709479
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 840098229046134,
+					"parameters": {
+						"key": 38
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 474859951266705
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Player2",
+					"sid": 571856415240377,
+					"parameters": {
+						"object": "Bullet",
+						"layer": "2",
+						"image-point": "1"
+					}
+				}
+			],
+			"sid": 653319759519693
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Bullet",
+					"sid": 154997072144332
+				},
+				{
+					"id": "is-mirrored",
+					"objectClass": "Player2",
+					"sid": 591285436559830
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle",
+					"objectClass": "Bullet",
+					"sid": 802884917089474,
+					"parameters": {
+						"angle": "180"
+					}
+				}
+			],
+			"sid": 759778134914203
+		},
+		{
+			"eventType": "comment",
+			"text": "When bullet collides with Button_6, go to layout 1."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Bullet",
+					"sid": 835491575390133,
+					"parameters": {
+						"object": "Button_6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 391353777946167,
+					"parameters": {
+						"layout": "Layout 1"
+					}
+				}
+			],
+			"sid": 831219086272261
+		}
+	],
+	"sid": 518314520443881
+}

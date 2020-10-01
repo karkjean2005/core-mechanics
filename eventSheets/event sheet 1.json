@@ -151,7 +151,7 @@
 		},
 		{
 			"eventType": "comment",
-			"text": "When player goes through Trigger, invisible wall is destroyed."
+			"text": "When player goes through Trigger, starting instructions are set to visable."
 		},
 		{
 			"eventType": "block",
@@ -167,9 +167,12 @@
 			],
 			"actions": [
 				{
-					"id": "destroy",
-					"objectClass": "Wall",
-					"sid": 538277211758194
+					"id": "set-visible",
+					"objectClass": "StartingInstructions",
+					"sid": 177312096333870,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 559239563620095
