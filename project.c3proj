@@ -131,7 +131,9 @@
 			"Ground2",
 			"Player2",
 			"TitleScreenGoal",
-			"Button_6"
+			"Button_6",
+			"Ground3",
+			"Story"
 		],
 		"subfolders": []
 	},
@@ -147,14 +149,15 @@
 		"items": [
 			"Layout 1",
 			"Layout 2",
-			"Title Screen"
+			"Title Screen",
+			"Story Layout"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Event sheet 1",
-			"TS Event Sheet"
+			"TS & Story Event Sheet"
 		],
 		"subfolders": []
 	},

@@ -1,5 +1,5 @@
 {
-	"name": "TS Event Sheet",
+	"name": "TS & Story Event Sheet",
 	"events": [
 		{
 			"eventType": "comment",
@@ -162,9 +162,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 391353777946167,
+					"sid": 341519899532363,
 					"parameters": {
-						"layout": "Layout 1"
+						"layout": "Story Layout"
 					}
 				}
 			],
