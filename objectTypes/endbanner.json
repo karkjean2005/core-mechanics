@@ -1,0 +1,57 @@
+{
+	"name": "EndBanner",
+	"plugin-id": "Sprite",
+	"sid": 720909111455925,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 625,
+						"height": 485,
+						"originX": 0.496,
+						"originY": 0.5,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\End Game.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 246582,
+						"collisionPoly": {
+							"points": [
+								0.096,
+								0.11134020618556702,
+								0.496,
+								0.0020618556701031076,
+								0.9024,
+								0.10103092783505155,
+								0.9568,
+								0.5,
+								0.912,
+								0.9092783505154639,
+								0.496,
+								0.488659793814433,
+								0.09280000000000002,
+								0.8907216494845361,
+								0.0464,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 663674560887192,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

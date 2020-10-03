@@ -116,6 +116,35 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "EndBanner",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 57,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1649.281158694382,
+						"y": 80.43501126972238,
+						"width": 110.69588446447983,
+						"height": 143.87002253944476,
+						"originX": 0.496,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 390481935078272,
@@ -213,8 +242,8 @@
 						}
 					},
 					"world": {
-						"x": 70,
-						"y": 857,
+						"x": 210,
+						"y": 840,
 						"width": 65.72670690061993,
 						"height": 65.72670690061993,
 						"originX": 0.5,
@@ -488,9 +517,9 @@
 					},
 					"world": {
 						"x": 1633.5,
-						"y": 163,
+						"y": 173.04361799816365,
 						"width": 150,
-						"height": 70,
+						"height": 49.91276400367266,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -506,7 +535,7 @@
 				{
 					"type": "Goal",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": false,
@@ -516,10 +545,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1671,
-						"y": 77,
-						"width": 75,
-						"height": 101,
+						"x": 1665.9862885048838,
+						"y": 113.31013557983343,
+						"width": 34.8333333333328,
+						"height": 70.44985155508476,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
