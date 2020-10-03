@@ -137,7 +137,8 @@
 			"StartGame",
 			"StartGamePost",
 			"Layout1Trigger",
-			"EndBanner"
+			"EndBanner",
+			"Background"
 		],
 		"subfolders": []
 	},

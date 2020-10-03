@@ -4,7 +4,37 @@
 		{
 			"name": "BG",
 			"overriden": 0,
-			"instances": [],
+			"instances": [
+				{
+					"type": "Background",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 58,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 855,
+						"y": 478.5,
+						"width": 1711,
+						"height": 961,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 827037679702210,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
