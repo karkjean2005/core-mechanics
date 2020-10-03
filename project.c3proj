@@ -133,7 +133,10 @@
 			"TitleScreenGoal",
 			"Button_6",
 			"Ground3",
-			"Story"
+			"Story",
+			"StartGame",
+			"StartGamePost",
+			"Layout1Trigger"
 		],
 		"subfolders": []
 	},

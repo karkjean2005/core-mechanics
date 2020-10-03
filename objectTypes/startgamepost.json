@@ -1,0 +1,57 @@
+{
+	"name": "StartGamePost",
+	"plugin-id": "Sprite",
+	"sid": 262962896453116,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 192,
+						"height": 921,
+						"originX": -2.3359375,
+						"originY": 0.4522258414766558,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Start Game.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 865670,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.04017372421281213,
+								0,
+								0,
+								0.3333333333333333,
+								0.031487513572204126,
+								0.7239583333333334,
+								0.4522258414766558,
+								0.4270833333333333,
+								0.8914223669923995,
+								0,
+								0.4505971769815418,
+								0,
+								0.8816503800217155,
+								0,
+								0.4522258414766558
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 991858204486847,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

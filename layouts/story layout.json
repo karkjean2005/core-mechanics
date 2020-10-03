@@ -96,8 +96,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 119,
-						"y": 3,
+						"x": 62,
+						"y": -17,
 						"width": 637,
 						"height": 382,
 						"originX": 0,
@@ -142,6 +142,35 @@
 			"overriden": 0,
 			"instances": [
 				{
+					"type": "StartGamePost",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 55,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 811.0665880335971,
+						"y": 389.8636164254504,
+						"width": 25.29326770962279,
+						"height": 159.4633793322252,
+						"originX": -2.3359375,
+						"originY": 0.4522258414766558,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Player2",
 					"properties": {
 						"initially-visible": true,
@@ -178,6 +207,64 @@
 						"y": 438,
 						"width": 66.2525205558249,
 						"height": 66.2525205558249,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "StartGame",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 54,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 811,
+						"y": 389.7355371900826,
+						"width": 181.40015435495093,
+						"height": 194.7842581419689,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Layout1Trigger",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 56,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 871.9210512906159,
+						"y": 385.2762950045442,
+						"width": 17,
+						"height": 170.92108526168334,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

@@ -169,6 +169,34 @@
 				}
 			],
 			"sid": 831219086272261
+		},
+		{
+			"eventType": "comment",
+			"text": "When player goes to Layout1Trigger, go to Layout 1."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player2",
+					"sid": 471884910835430,
+					"parameters": {
+						"object": "Layout1Trigger"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 415764415667352,
+					"parameters": {
+						"layout": "Layout 1"
+					}
+				}
+			],
+			"sid": 527968914990865
 		}
 	],
 	"sid": 518314520443881
