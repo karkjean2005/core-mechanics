@@ -138,7 +138,9 @@
 			"StartGamePost",
 			"Layout1Trigger",
 			"EndBanner",
-			"Background"
+			"Background",
+			"Trophy",
+			"VictoryText"
 		],
 		"subfolders": []
 	},

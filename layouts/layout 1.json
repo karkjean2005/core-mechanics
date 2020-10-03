@@ -21,7 +21,7 @@
 						"x": 855,
 						"y": 478.5,
 						"width": 1711,
-						"height": 961,
+						"height": 961.0000000000001,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -74,9 +74,9 @@
 						"bold": false,
 						"italic": false,
 						"color": [
-							0,
-							0,
-							0,
+							1,
+							1,
+							1,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -116,9 +116,9 @@
 						"bold": false,
 						"italic": false,
 						"color": [
-							0,
-							0,
-							0,
+							1,
+							1,
+							1,
 							1
 						],
 						"horizontal-alignment": "left",

@@ -1,0 +1,57 @@
+{
+	"name": "Trophy",
+	"plugin-id": "Sprite",
+	"sid": 333417200067531,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 703,
+						"height": 829,
+						"originX": 0.5,
+						"originY": 0.5024125452352232,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Trophy.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1901159,
+						"collisionPoly": {
+							"points": [
+								0.06543385490753911,
+								0.045838359469240045,
+								0.5,
+								0.0012062726176115801,
+								0.9359886201991465,
+								0.04342581423401689,
+								0.6913229018492176,
+								0.5024125452352232,
+								0.5490753911806543,
+								0.632086851628468,
+								0.5,
+								0.9975874547647768,
+								0.44096728307254623,
+								0.6393244873341375,
+								0.3015647226173542,
+								0.5024125452352232
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 623786659991455,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

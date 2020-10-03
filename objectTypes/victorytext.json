@@ -1,0 +1,57 @@
+{
+	"name": "VictoryText",
+	"plugin-id": "Sprite",
+	"sid": 873354164233889,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 2229,
+						"height": 487,
+						"originX": 0.49551368326603856,
+						"originY": 0.48767967145790553,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 2_End Title.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2937901,
+						"collisionPoly": {
+							"points": [
+								0.018393898609241812,
+								0.04106776180698152,
+								0.49551368326603856,
+								0.1375770020533881,
+								0.9510991475998205,
+								0.1375770020533881,
+								0.23822341857335128,
+								0.48767967145790553,
+								0.8497083894122924,
+								0.37166324435318276,
+								0.49551368326603856,
+								0.9876796714579056,
+								0.14087034544638852,
+								0.37166324435318276,
+								0.20053835800807537,
+								0.48767967145790553
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 239649663345825,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

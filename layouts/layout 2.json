@@ -2,7 +2,7 @@
 	"name": "Layout 2",
 	"layers": [
 		{
-			"name": "Layer 0",
+			"name": "BG",
 			"overriden": 0,
 			"instances": [
 				{
@@ -31,8 +31,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 333,
-						"y": 178,
+						"x": 910,
+						"y": -163,
 						"width": 253,
 						"height": 98,
 						"originX": 0,
@@ -58,12 +58,128 @@
 				1
 			],
 			"backgroundColor": [
+				0.5803921568627451,
+				0.6509803921568628,
+				1,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		},
+		{
+			"name": "GAME",
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "Trophy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 59,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 478,
+						"y": 162,
+						"width": 210.73600455507534,
+						"height": 248.50661134588543,
+						"originX": 0.5,
+						"originY": 0.5024125452352232,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 761853819271127,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
 				1,
 				1,
 				1,
 				1
 			],
-			"isTransparent": false,
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		},
+		{
+			"name": "UI",
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "VictoryText",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 60,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 465,
+						"y": 386,
+						"width": 571.7313159176324,
+						"height": 124.91393039564242,
+						"originX": 0.49551368326603856,
+						"originY": 0.48767967145790553,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 404987805748376,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
 			"parallaxX": 1,
 			"parallaxY": 1,
 			"scaleRate": 1,
