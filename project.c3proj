@@ -164,7 +164,8 @@
 	"eventSheets": {
 		"items": [
 			"Event sheet 1",
-			"TS & Story Event Sheet"
+			"TS & Story Event Sheet",
+			"Es Event sheet"
 		],
 		"subfolders": []
 	},

@@ -87,9 +87,24 @@
 					},
 					"uid": 59,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "size",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 10,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
 					"world": {
-						"x": 478,
+						"x": 458,
 						"y": 162,
 						"width": 210.73600455507534,
 						"height": 248.50661134588543,
@@ -147,7 +162,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 465,
+						"x": 445,
 						"y": 386,
 						"width": 571.7313159176325,
 						"height": 124.91393039564242,
@@ -195,5 +210,5 @@
 	"width": 1800,
 	"height": 1000,
 	"unboundedScrolling": false,
-	"eventSheet": null
+	"eventSheet": "Es Event sheet"
 }
