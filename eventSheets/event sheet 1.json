@@ -38,6 +38,17 @@
 						"layer": "0",
 						"image-point": "1"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 567620305030480,
+					"parameters": {
+						"audio-file": "Jump 27",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 844267481557972
@@ -145,6 +156,17 @@
 					"id": "restart-layout",
 					"objectClass": "System",
 					"sid": 216477223537500
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 872142384922293,
+					"parameters": {
+						"audio-file": "SplashSound1",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 208917015392862
@@ -477,6 +499,17 @@
 						"variable": "Goal",
 						"value": "1"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 327341695215069,
+					"parameters": {
+						"audio-file": "Pickup_coin 5",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 356155142849429
@@ -626,6 +659,17 @@
 					"parameters": {
 						"variable": "Goal",
 						"value": "1"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 369483994010176,
+					"parameters": {
+						"audio-file": "Pickup_coin 5",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
@@ -785,6 +829,17 @@
 					"parameters": {
 						"visibility": "visible"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 856389784619928,
+					"parameters": {
+						"audio-file": "Pickup_coin 5",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 441436901295530
@@ -921,6 +976,17 @@
 					"id": "destroy",
 					"objectClass": "Bullet",
 					"sid": 350972171109545
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 685581032238677,
+					"parameters": {
+						"audio-file": "Pickup_coin 5",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				},
 				{
 					"id": "add-to-eventvar",
@@ -1079,6 +1145,17 @@
 					"id": "destroy",
 					"objectClass": "Bullet",
 					"sid": 312553828895183
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 832419430140747,
+					"parameters": {
+						"audio-file": "Pickup_coin 5",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				},
 				{
 					"id": "add-to-eventvar",

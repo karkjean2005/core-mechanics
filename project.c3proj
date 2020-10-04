@@ -31,6 +31,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Platform",
@@ -140,7 +148,8 @@
 			"EndBanner",
 			"Background",
 			"Trophy",
-			"VictoryText"
+			"VictoryText",
+			"Audio"
 		],
 		"subfolders": []
 	},
@@ -175,7 +184,28 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "sound_2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 419242668550202
+				},
+				{
+					"name": "SplashSound1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 902499275759894
+				},
+				{
+					"name": "Pickup_coin 5.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 312925915913507
+				},
+				{
+					"name": "Jump 27.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 121292062203208
+				}
+			],
 			"subfolders": []
 		},
 		"music": {

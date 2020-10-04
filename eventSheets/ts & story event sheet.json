@@ -86,6 +86,10 @@
 			"sid": 823359040709479
 		},
 		{
+			"eventType": "comment",
+			"text": "When jumping, you spawn the bullet and jump sound."
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -111,6 +115,17 @@
 						"object": "Bullet",
 						"layer": "2",
 						"image-point": "1"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 979624527189686,
+					"parameters": {
+						"audio-file": "Jump 27",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
