@@ -181,6 +181,17 @@
 					"parameters": {
 						"layout": "Story Layout"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 952810531695001,
+					"parameters": {
+						"audio-file": "Pickup_coin 5",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 831219086272261
