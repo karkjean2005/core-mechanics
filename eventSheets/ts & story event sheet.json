@@ -116,17 +116,6 @@
 						"layer": "2",
 						"image-point": "1"
 					}
-				},
-				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 979624527189686,
-					"parameters": {
-						"audio-file": "Jump 27",
-						"loop": "not-looping",
-						"volume": "0",
-						"tag-optional": "\"\""
-					}
 				}
 			],
 			"sid": 653319759519693
@@ -223,6 +212,40 @@
 				}
 			],
 			"sid": 527968914990865
+		},
+		{
+			"eventType": "comment",
+			"text": "When player is jumping, jumping sound plays once."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-jumping",
+					"objectClass": "Player2",
+					"sid": 332997650201162,
+					"behaviorType": "Platform"
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 699941504562863
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 201501174752573,
+					"parameters": {
+						"audio-file": "Jump 27",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 288058524562467
 		}
 	],
 	"sid": 518314520443881
