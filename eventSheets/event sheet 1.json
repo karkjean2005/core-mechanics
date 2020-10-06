@@ -47,6 +47,7 @@
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 586109817320179,
+					"disabled": true,
 					"parameters": {
 						"audio-file": "sound_3",
 						"loop": "not-looping",

@@ -206,6 +206,137 @@
 			"overriden": 0,
 			"instances": [
 				{
+					"type": "Button_5",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "RedButton",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 38,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1205,
+						"y": 110,
+						"width": 30.29851481508623,
+						"height": 40.3980197534483,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.270358022418238,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Button_4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "RedButton",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 32,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 812,
+						"y": 160,
+						"width": 30.29851481508623,
+						"height": 40.3980197534483,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.270358022418238,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Button_3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "RedButton",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 21,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 1,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 60,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 59,
+						"y": 382,
+						"width": 30.29851481508623,
+						"height": 40.3980197534483,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.270358022418238,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Button_2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "RedButton",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 12,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1609.247533908675,
+						"y": 768.9752043635708,
+						"width": 36.35096248435295,
+						"height": 36.35096248435295,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.270358022418238,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Button_1",
 					"properties": {
 						"initially-visible": true,
@@ -273,7 +404,7 @@
 					},
 					"world": {
 						"x": 210,
-						"y": 840,
+						"y": 857,
 						"width": 65.72670690061993,
 						"height": 65.72670690061993,
 						"originX": 0.5,
@@ -701,137 +832,6 @@
 							1
 						],
 						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Button_2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "RedButton",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 12,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1609.247533908675,
-						"y": 768.9752043635708,
-						"width": 36.35096248435295,
-						"height": 36.35096248435295,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.270358022418238,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Button_3",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "RedButton",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 21,
-					"instanceVariables": {},
-					"behaviors": {
-						"Sine": {
-							"properties": {
-								"movement": "vertical",
-								"wave": "sine",
-								"period": 1,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 60,
-								"magnitude-random": 0,
-								"enabled": true,
-								"live-preview": false
-							}
-						}
-					},
-					"world": {
-						"x": 59,
-						"y": 382,
-						"width": 30.29851481508623,
-						"height": 40.3980197534483,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.270358022418238,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Button_4",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "RedButton",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 32,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 812,
-						"y": 160,
-						"width": 30.29851481508623,
-						"height": 40.3980197534483,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.270358022418238,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Button_5",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "RedButton",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 38,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1205,
-						"y": 110,
-						"width": 30.29851481508623,
-						"height": 40.3980197534483,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.270358022418238,
 						"zElevation": 0
 					}
 				},
