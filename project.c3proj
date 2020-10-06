@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 21800,
+	"savedWithRelease": 21900,
 	"name": "New project",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r218",
+			"version": "r219",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r218",
+			"version": "r219",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r218",
+			"version": "r219",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "Audio",
 			"name": "Audio",
 			"author": "Scirra",
-			"version": "r218",
+			"version": "r219",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "Platform",
 			"name": "Platform",
 			"author": "Scirra",
-			"version": "r218",
+			"version": "r219",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "scrollto",
 			"name": "Scroll To",
 			"author": "Scirra",
-			"version": "r218",
+			"version": "r219",
 			"bundled": false
 		},
 		{
@@ -59,7 +59,7 @@
 			"id": "bound",
 			"name": "Bound to layout",
 			"author": "Scirra",
-			"version": "r218",
+			"version": "r219",
 			"bundled": false
 		},
 		{
@@ -67,7 +67,7 @@
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
-			"version": "r218",
+			"version": "r219",
 			"bundled": false
 		},
 		{
@@ -75,7 +75,7 @@
 			"id": "Bullet",
 			"name": "Bullet",
 			"author": "Scirra",
-			"version": "r218",
+			"version": "r219",
 			"bundled": false
 		},
 		{
@@ -83,7 +83,7 @@
 			"id": "Sin",
 			"name": "Sine",
 			"author": "Scirra",
-			"version": "r218",
+			"version": "r219",
 			"bundled": false
 		},
 		{
@@ -91,7 +91,7 @@
 			"id": "pulse",
 			"name": "Pulse",
 			"author": "Danguafer/Silexars",
-			"version": "r218",
+			"version": "r219",
 			"bundled": false
 		}
 	],
@@ -214,6 +214,21 @@
 					"name": "sound_3.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 968174642506192
+				},
+				{
+					"name": "Comical Male Grunt In Pain 02 Sound Effect.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 660992310149183
+				},
+				{
+					"name": "Electric Shock Sound Effect.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 300879902453937
+				},
+				{
+					"name": "robot falls in the water.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 274645395452286
 				}
 			],
 			"subfolders": []

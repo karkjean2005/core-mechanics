@@ -195,11 +195,22 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 872142384922293,
+					"sid": 448965541245464,
 					"parameters": {
-						"audio-file": "SplashSound1",
+						"audio-file": "robot falls in the water",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "700",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 161369474196892,
+					"parameters": {
+						"audio-file": "Electric Shock Sound Effect",
+						"loop": "not-looping",
+						"volume": "-20",
 						"tag-optional": "\"\""
 					}
 				}
