@@ -188,31 +188,37 @@
 			],
 			"actions": [
 				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 216477223537500
-				},
-				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 448965541245464,
+					"id": "set-ignoring-input",
+					"objectClass": "Player",
+					"sid": 381369777184054,
+					"behaviorType": "Platform",
 					"parameters": {
-						"audio-file": "robot falls in the water",
-						"loop": "not-looping",
-						"volume": "700",
-						"tag-optional": "\"\""
+						"input": "start-ignoring"
 					}
 				},
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 161369474196892,
+					"sid": 478863429555980,
 					"parameters": {
 						"audio-file": "Electric Shock Sound Effect",
 						"loop": "not-looping",
 						"volume": "-20",
 						"tag-optional": "\"\""
 					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 493391986628207,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 216477223537500
 				}
 			],
 			"sid": 208917015392862
