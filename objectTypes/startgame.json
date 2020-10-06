@@ -11,14 +11,14 @@
 			{
 				"frames": [
 					{
-						"width": 1377,
-						"height": 1125,
+						"width": 1408,
+						"height": 1079,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Start Game.png",
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\GroupGameProject_Project_2\\Start Course.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3974759,
+						"imageSpriteId": 9563374,
 						"collisionPoly": {
 							"points": [
 								0.1328976034858388,

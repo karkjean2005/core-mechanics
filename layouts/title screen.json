@@ -146,12 +146,19 @@
 					},
 					"uid": 45,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
-						"x": 921,
-						"y": 414,
+						"x": 925,
+						"y": 289,
 						"width": 52.09838708654017,
-						"height": 116.09838708654017,
+						"height": 366.0983870865402,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

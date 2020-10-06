@@ -4,7 +4,13 @@
 	"sid": 926952067956547,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 407048836596091
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [

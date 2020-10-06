@@ -73,7 +73,7 @@
 				{
 					"type": "Story",
 					"properties": {
-						"text": "The annual NotWipeout(tm) competition is here. Many people are lining up to participate, including you. You have been working up the courage to participate for a long while now, and the reason why is because... you're \"special\". Through some miracle, the nerves in your fingers are connected to your legs. So whenever you squeeze your fingers, you jump! This competition will be much harder for you, but you are determined to prove to everyone that you are just as good as everyone else!",
+						"text": "You are a test robot built to run an obstacle course. All robots are built to run this course. Unfortunately for you, you're servos are malfunctioning, your legs and arms are connected as one. The people that built you want to see if you're still capable of running the course. GO FOR IT!",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 20,
@@ -232,10 +232,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 811,
+						"x": 812,
 						"y": 389.7355371900826,
-						"width": 181.40015435495093,
-						"height": 194.7842581419689,
+						"width": 185.48396320390043,
+						"height": 186.8197462534973,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
