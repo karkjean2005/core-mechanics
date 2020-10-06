@@ -17,14 +17,40 @@
 			{
 				"frames": [
 					{
-						"width": 141,
-						"height": 143,
+						"width": 36,
+						"height": 15,
 						"originX": 0.5106382978723404,
 						"originY": 0.4755244755244755,
-						"originalSource": "",
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\GroupGameProject_Project_2\\Robot_Bullet.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7926442,
+						"imageSpriteId": 3560365,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.13437499999999997,
+								0.057400173611111126,
+								0,
+								0.5,
+								0,
+								0.8019748263888891,
+								0,
+								0.9009874131944445,
+								0.24869791666666666,
+								1,
+								0.4973958333333333,
+								0.8866102430555552,
+								0.7916666666666667,
+								0.8000217013888881,
+								1,
+								0.05631510416666653,
+								1,
+								0,
+								0.8458333333333332,
+								0,
+								0.5
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}

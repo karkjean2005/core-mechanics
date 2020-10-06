@@ -249,6 +249,10 @@
 			"sid": 288058524562467
 		},
 		{
+			"eventType": "comment",
+			"text": "When player moves, walk animation."
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -270,6 +274,60 @@
 				}
 			],
 			"sid": 767236677907470
+		},
+		{
+			"eventType": "comment",
+			"text": "When player stops moving, Idle animation."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-stopped",
+					"objectClass": "Player2",
+					"sid": 912486481861306,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player2",
+					"sid": 533442098978417,
+					"parameters": {
+						"animation": "\"Idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 492632783449571
+		},
+		{
+			"eventType": "comment",
+			"text": "When player lands, Idle animation."
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-landed",
+					"objectClass": "Player2",
+					"sid": 948312305740433,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player2",
+					"sid": 828092670328137,
+					"parameters": {
+						"animation": "\"Idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 981838827679751
 		}
 	],
 	"sid": 518314520443881
