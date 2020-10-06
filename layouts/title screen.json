@@ -211,7 +211,7 @@
 					"type": "Player2",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Right",
+						"initial-animation": "Idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -241,9 +241,9 @@
 					},
 					"world": {
 						"x": 113.22618225124177,
-						"y": 437.22618225124177,
-						"width": 65.726707,
-						"height": 65.726707,
+						"y": 430.22618225124177,
+						"width": 80,
+						"height": 80,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

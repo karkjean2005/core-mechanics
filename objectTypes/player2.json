@@ -36,8 +36,8 @@
 								0.003968253968253968,
 								0.996031746031746,
 								0.003968253968253968,
-								0.996031746031746,
-								0.996031746031746,
+								1,
+								1,
 								0.003968253968253968,
 								0.996031746031746
 							]
@@ -54,7 +54,82 @@
 					}
 				],
 				"sid": 243027473031380,
-				"name": "Right",
+				"name": "Idle",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 62,
+						"height": 62,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\GroupGameProject_Project_2\\Robot_Walk1.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1920636,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								1,
+								0,
+								1,
+								0.5172811059907833,
+								1,
+								1,
+								0.5403225806451614,
+								1,
+								0,
+								1,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 62,
+						"height": 62,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\GroupGameProject_Project_2\\Robot_Walk2.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 236780,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								1,
+								0,
+								1,
+								0.5172811059907833,
+								1,
+								1,
+								0.5403225806451614,
+								1,
+								0,
+								1,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 636329072574377,
+				"name": "Walking",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

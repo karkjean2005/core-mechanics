@@ -247,6 +247,29 @@
 				}
 			],
 			"sid": 288058524562467
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Player2",
+					"sid": 291004286519637,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player2",
+					"sid": 399687465979895,
+					"parameters": {
+						"animation": "\"Walking\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 767236677907470
 		}
 	],
 	"sid": 518314520443881
