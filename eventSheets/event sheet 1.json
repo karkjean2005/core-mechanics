@@ -467,12 +467,9 @@
 					}
 				},
 				{
-					"id": "set-visible",
+					"id": "destroy",
 					"objectClass": "TriggerInstructions",
-					"sid": 157063789121513,
-					"parameters": {
-						"visibility": "invisible"
-					}
+					"sid": 550412586765657
 				}
 			],
 			"sid": 542487795604956
