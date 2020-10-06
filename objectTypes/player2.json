@@ -22,14 +22,14 @@
 			{
 				"frames": [
 					{
-						"width": 252,
-						"height": 252,
+						"width": 62,
+						"height": 62,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "",
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\GroupGameProject_Project_2\\New_Piskel-1.png.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4719284,
+						"imageSpriteId": 3173155,
 						"collisionPoly": {
 							"points": [
 								0.003968253968253968,
