@@ -337,6 +337,29 @@
 				}
 			],
 			"sid": 981838827679751
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-distance-travelled",
+					"objectClass": "Bullet",
+					"sid": 843957299044527,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"comparison": 5,
+						"distance": "450"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Bullet",
+					"sid": 121158033990574
+				}
+			],
+			"sid": 554089042520627
 		}
 	],
 	"sid": 518314520443881

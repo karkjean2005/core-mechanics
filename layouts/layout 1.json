@@ -124,7 +124,7 @@
 				{
 					"type": "StartingInstructions",
 					"properties": {
-						"text": "Turn all the buttons on to reach and activate the goal\n\nArrow keys to move\n\nPress Up to jump\n\nPress Up to shoot",
+						"text": "Turn all the buttons on to reach and activate the goal",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 15,
@@ -148,9 +148,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 17,
-						"y": 585,
+						"y": 638,
 						"width": 471,
-						"height": 179,
+						"height": 76,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -409,7 +409,7 @@
 					"world": {
 						"x": 529,
 						"y": 823.5,
-						"width": 62.23053518362454,
+						"width": 62.23053518362453,
 						"height": 85.62689486963401,
 						"originX": 0.5,
 						"originY": 0.5,

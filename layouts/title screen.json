@@ -119,12 +119,54 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 671.2677248356395,
+						"x": 837.2677248356395,
 						"y": 412.1478818478644,
 						"width": 34.15317202228738,
 						"height": 47.28900741547485,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "StartingInstructions",
+					"properties": {
+						"text": "Arrow keys to move\n\nPress Up to jump\n\nPress Up to shoot",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 15,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 66,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 216,
+						"y": 262,
+						"width": 471,
+						"height": 144,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -269,7 +311,7 @@
 						}
 					},
 					"world": {
-						"x": 113.22618225124177,
+						"x": 90.22618225124177,
 						"y": 430.22618225124177,
 						"width": 80,
 						"height": 80,
