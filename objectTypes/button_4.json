@@ -11,14 +11,26 @@
 			{
 				"frames": [
 					{
-						"width": 150,
-						"height": 200,
+						"width": 52,
+						"height": 72,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "",
+						"originalSource": "E:\\BCBEAR\\Sprites\\unpressedButtonRed.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5884325,
+						"imageSpriteId": 1246627,
+						"collisionPoly": {
+							"points": [
+								0.04086538461538414,
+								0.12499999999999997,
+								0.5384615384615378,
+								0.1197916666666666,
+								0.5432692307692317,
+								0.8749999999999997,
+								0.04006410256410409,
+								0.8755787037037039
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
@@ -34,14 +46,26 @@
 			{
 				"frames": [
 					{
-						"width": 150,
-						"height": 200,
+						"width": 52,
+						"height": 72,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "",
+						"originalSource": "E:\\BCBEAR\\Sprites\\greenPressedBiutton.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2726313,
+						"imageSpriteId": 5215561,
+						"collisionPoly": {
+							"points": [
+								0.6514423076923079,
+								0.8732638888888888,
+								0.15865384615384615,
+								0.8749999999999989,
+								0.15865384615384692,
+								0.1267361111111109,
+								0.6538461538461537,
+								0.12152777777777773
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}

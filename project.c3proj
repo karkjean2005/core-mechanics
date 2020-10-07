@@ -149,7 +149,8 @@
 			"Background",
 			"Trophy",
 			"VictoryText",
-			"Audio"
+			"Audio",
+			"railforMoving"
 		],
 		"subfolders": []
 	},

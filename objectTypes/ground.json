@@ -21,10 +21,10 @@
 						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "",
+						"originalSource": "E:\\BCBEAR\\Sprites\\CorrectFLoor-1.png.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1842158,
+						"imageSpriteId": 2057460,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
