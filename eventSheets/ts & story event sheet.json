@@ -157,9 +157,9 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Bullet",
-					"sid": 835491575390133,
+					"sid": 998969003915680,
 					"parameters": {
-						"object": "Button_6"
+						"object": "Button_7"
 					}
 				}
 			],
@@ -181,6 +181,15 @@
 						"loop": "not-looping",
 						"volume": "0",
 						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Button_7",
+					"sid": 614425144491124,
+					"parameters": {
+						"animation": "\"GreenButton\"",
+						"from": "beginning"
 					}
 				}
 			],

@@ -150,7 +150,8 @@
 			"Trophy",
 			"VictoryText",
 			"Audio",
-			"railforMoving"
+			"railforMoving",
+			"Button_7"
 		],
 		"subfolders": []
 	},
@@ -230,6 +231,11 @@
 					"name": "robot falls in the water.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 274645395452286
+				},
+				{
+					"name": "Pickup_coin 19.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 721532531503327
 				}
 			],
 			"subfolders": []
@@ -369,5 +375,5 @@
 	},
 	"viewportWidth": 900,
 	"viewportHeight": 500,
-	"firstLayout": "Layout 1"
+	"firstLayout": "Title Screen"
 }

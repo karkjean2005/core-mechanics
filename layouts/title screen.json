@@ -90,8 +90,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 636,
-						"y": 417,
+						"x": 594.6153488160639,
+						"y": 594.2512418632733,
 						"width": 30.29851481508623,
 						"height": 40.3980197534483,
 						"originX": 0.5,
@@ -103,6 +103,35 @@
 							1
 						],
 						"angle": 6.2830802509557575,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Button_7",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "RedButton",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 65,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 671.2677248356395,
+						"y": 412.1478818478644,
+						"width": 34.15317202228738,
+						"height": 47.28900741547485,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
 						"zElevation": 0
 					}
 				}
